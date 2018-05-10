@@ -1,0 +1,1157 @@
+﻿
+  <soru-1>Hukuk Muhakemeleri Kanunu’na göre hâkimin reddi talebine itiraz süresi ret dilekçesinin tebliğ tarihinden itibaren ne kadardır?
+    <a-1> 1 hafta
+    <b-1> 2 hafta
+    <c-1> 3 hafta
+    <d-1> 4 hafta
+    <e-1> 5 hafta
+  <soru-2>Hukuk Muhakemeleri Kanunu’na göre hakimin reddi hakkındaki kararlara karşı istinaf başvuru süresi tebliğ veya tefhim tarihinden itibaren ne kadardır?
+    <a-2> 1 hafta
+    <b-2> 2 hafta
+    <c-2> 3 hafta
+    <d-2> 4 hafta
+    <e-2> 5 hafta
+  <soru-3>Hukuk Muhakemeleri Kanunu’na göre istifa eden vekilin vekalet görevinin sona ermesi istifanın müvekkile tebliği tarihinden itibaren ne kadardır?
+    <a-3> 1 hafta
+    <b-3> 2 hafta
+    <c-3> 3 hafta
+    <d-3> 4 hafta
+    <e-3> 5 hafta
+
+
+
+  <soru-4>Hukuk Muhakemeleri Kanunu’na göre eski hale getirme süresi engelin ortadan kalktığı tarihten itibaren ne kadardır?
+    <a-4> 3 gün
+    <b-4> 5 gün
+    <c-4> 1 hafta
+    <d-4> 2 hafta
+    <e-4> 1 ay
+  <soru-5>Hukuk Muhakemeleri Kanunu’na göre adli tatile rastlayan süreler adli tatilin bittiği günden itibaren ne kadar uzar?
+    <a-5> 3 gün
+    <b-5> 5 gün
+    <c-5> 10 gün
+    <d-5> 1 hafta
+    <e-5> 2 hafta
+  <soru-6>Hukuk Muhakemeleri Kanunu’na göre yazılı yargılama usulünde  dava dilekçesindeki eksikliğin giderilmesi süresi eksikliğin tamamlanmasına ilişkin kararın davacıya tebliği tarihinden itibaren ne kadardır?
+    <a-6> 1 hafta
+    <b-6> 2 hafta
+    <c-6> 3 hafta
+    <d-6> 4 hafta
+    <e-6> 5 hafta
+
+
+  <soru-7>Hukuk Muhakemeleri Kanunu’na göre dava dilekçesinin davalıya tebliği tarihinden itibaren davaya cevap süresi ne kadardır?
+    <a-7> 1 hafta
+    <b-7> 2 hafta
+    <c-7> 3 hafta
+    <d-7> 4 hafta
+    <e-7> 5 hafta
+  <soru-8>Hukuk Muhakemeleri Kanunu’na göre ıslah nedeniyle teminat yatırma süresi hakim kararının ilgili tarafa tebliğinden itibaren ne kadardır?
+    <a-8> 1 hafta
+    <b-8> 2 hafta
+    <c-8> 3 hafta
+    <d-8> 4 hafta
+    <e-8> 5 hafta
+  <soru-9>Hukuk Muhakemeleri Kanunu’na göre bilirkişiyi ret süresi ret sebeplerini öğrenme tarihinden itibaren ne kadardır?
+    <a-9> 1 hafta
+    <b-9> 2 hafta
+    <c-9> 3 hafta
+    <d-9> 4 hafta
+    <e-9> 5 hafta
+
+
+
+
+   <soru-10>Hukuk Muhakemeleri Kanunu’na göre bilirkişi raporuna itiraz süresi raporun taraflara tebliği tarihinden itibaren ne kadardır?
+<a-10>   3 gün
+<b-10>   5 gün
+    <c-10> 1 hafta
+    <d-10> 2 hafta
+    <e-10> 1 ay
+   <soru-11>Hukuk Muhakemeleri Kanunu’na göre basit yargılama usulünde davaya cevap süresi dava dilekçesinin davalıya tebliği tarihinden itibaren ne kadardır?
+<a-11>   3 gün
+<b-11>   5 gün
+    <c-11> 10 gün
+    <d-11> 1 hafta
+    <e-11> 2 hafta
+   <soru-12>Hukuk Muhakemeleri Kanunu’na göre basit yargılama usulünde gerekçeli kararın yazılma süresi hüküm özetinin tefhimi tarihinden itibaren ne kadardır?
+    <a-12> 1 ay
+    <b-12> 2 ay
+    <c-12> 3 ay
+    <d-12> 4 ay
+    <e-12> 5 ay
+
+
+
+   <soru-13>Hukuk Muhakemeleri Kanunu’na göre istinaf başvuru süresi kararın tebliği tarihinden itibaren ne kadardır?
+    <a-13> 1 hafta
+    <b-13> 2 hafta
+    <c-13> 3 hafta
+    <d-13> 4 hafta
+    <e-13> 5 hafta
+   <soru-14>Hukuk Muhakemeleri Kanunu’na göre istinaf başvurusuna cevap süresi istinaf dilekçesinin tebliği tarihinden itibaren ne kadardır?
+    <a-14> 1 hafta
+    <b-14> 2 hafta
+    <c-14> 3 hafta
+    <d-14> 4 hafta
+    <e-14> 5 hafta
+   <soru-15>Hukuk Muhakemeleri Kanunu’na göre temyiz başvuru süresi Bölge Adliye Mahkemesi kararının tebliği tarihinden itibaren ne kadardır?
+    <a-15> 1 hafta
+    <b-15> 2 hafta
+    <c-15> 3 hafta
+    <d-15> 4 hafta
+    <e-15> 5 hafta
+
+
+
+
+   <soru-16>Hukuk Muhakemeleri Kanunu’na göre yargılamanın yenilenmesi süresi iade sebebinin öğrenildiği tarihten itibaren ne kadardır?
+<a-16>   3 hafta
+<b-16>   5 hafta
+    <c-16> 1 ay
+    <d-16> 2 ay
+    <e-16> 3 ay
+   <soru-17>Hukuk Muhakemeleri Kanunu’na göre yargılamanın yenilenmesinde azami süre hükmün kesinleşmesinden itibaren ne kadardır?
+<a-17>   1 yıl
+<b-17>   2 yıl
+    <c-17> 3 yıl
+    <d-17> 5 yıl
+    <e-17> 10 yıl
+   <soru-18>Hukuk Muhakemeleri Kanunu’na göre ihtiyati tedbir kararına itiraz süresi tedbirin öğrenildiği tarihten itibaren ne kadardır?
+    <a-18> 1 hafta
+    <b-18> 2 hafta
+    <c-18> 1 ay
+    <d-18> 2 ay
+    <e-18> 15 gün
+
+
+
+
+   <soru-19>Hukuk Muhakemeleri Kanunu’na göre haksız ihtiyati tedbir nedeniyle tazminat davası açma süresi hükmün kesinleşmesi veya tedbirin ortadan kalkmasından itibaren ne kadardır?
+    <a-19> 1 yıl
+    <b-19> 2 yıl
+    <c-19> 3 yıl
+    <d-19> 4 yıl
+    <e-19> 5 yıl
+   <soru-20>Hukuk Muhakemeleri Kanunu’na göre temyiz başvuru süresi gerekçeli kararın tebliği tarihinden itibaren ne kadardır?
+    <a-20> 1 gün
+    <b-20> 2 gün
+    <c-20> 7 gün
+    <d-20> 14 gün
+    <e-20> 15 gün
+   <soru-21>Hukuk Muhakemeleri Kanunu’na göre temyiz başvurusunun reddi kararının temyizi süresi ret kararının tebliğinden itibaren ne kadardır?
+    <a-21> 1 gün
+    <b-21> 2 gün
+    <c-21> 7 gün
+    <d-21> 14 gün
+    <e-21> 15 gün
+
+
+   <soru-22>Hukuk Muhakemeleri Kanunu’na göre temyiz talebine cevap ve katılma yoluyla temyiz süresi temyiz dilekçesinin tebliği tarihinden itibaren ne kadardır?
+    <a-22> 3 gün
+    <b-22> 5 gün
+    <c-22> 10 gün
+    <d-22> 1 hafta
+    <e-22> 2 hafta
+   <soru-23>İcra dairesi görevlilerinin kusurundan dolayı idare aleyhine tazminat davası açma süresi zararın öğrenildiği tarihten itibaren ne kadardır?
+    <a-23> 1 yıl
+    <b-23> 2 yıl
+    <c-23> 3 yıl
+    <d-23> 5 yıl
+    <e-23> 10 yıl
+   <soru-24>İcra dairesi görevlilerinin kusurundan dolayı idare aleyhine tazminat davası açmada azami süre ne kadardır?
+    <a-24> 1 yıl
+    <b-24> 2 yıl
+    <c-24> 3 yıl
+    <d-24> 5 yıl
+    <e-24> 10 yıl
+
+
+   <soru-25>İcra dairesinin kanuna veya halin icabına aykırı işlemlerine karşı şikayet süresi işlemin öğrenilmesi tarihinden itibaren ne kadardır?
+    <a-25> 3 gün
+    <b-25> 5 gün
+    <c-25> 7 gün
+    <d-25> 10 gün
+    <e-25> 14 gün
+   <soru-26>İlamlı takipte zamanaşımı süresi son muamele tarihinden itibaren ne kadardır?
+    <a-26> 1 yıl
+    <b-26> 2 yıl
+    <c-26> 3 yıl
+    <d-26> 5 yıl
+    <e-26> 10 yıl
+   <soru-27>Adi takipte itiraz süresi ödeme emrinin tebliği tarihinden itibaren ne kadardır?
+    <a-27> 3 gün
+    <b-27> 5 gün
+    <c-27> 7 gün
+    <d-27> 14 gün
+    <e-27> 15 gün
+
+
+
+
+
+
+
+   <soru-28>Adi takipte gecikmiş itiraz süresi engelin ortadan kalktığı tarihten itibaren ne kadardır?
+<a-28>   3 gün
+<b-28>   5 gün
+    <c-28> 1 hafta
+    <d-28> 2 hafta
+    <e-28> 1 ay
+   <soru-29>Hukuk Muhakemeleri Kanunu’na göre basit yargılama usulünde davaya cevap süresi dava dilekçesinin davalıya tebliği tarihinden itibaren ne kadardır?
+<a-29>   3 gün
+<b-29>   5 gün
+    <c-29> 10 gün
+    <d-29> 1 hafta
+    <e-29> 2 hafta
+   <soru-30> 89/1 haciz ihbarnamesine itiraz süresi birinci haciz ihbarnamesinin tebliğinden itibaren ne kadardır ?
+    <a-30> 3 gün
+    <b-30> 5 gün
+    <c-30> 7 gün
+    <d-30> 14 gün
+    <e-30> 15 gün
+
+
+
+   <soru-31>İcra ve İflas Kanunu’na göre üçüncü şahsın istihkak iddiasında bulunma süresi hacze ıttıla tarihinden itibaren ne kadardır?
+    <a-31> 3 gün
+    <b-31> 5 gün
+    <c-31> 7 gün
+    <d-31> 14 gün
+    <e-31> 15 gün
+   <soru-32>Üçüncü şahsın istihkak iddiasına karşı alacaklı ve borçlunun itiraz süresi icra dairesinin bildiriminden itibaren ne kadardır?
+    <a-32> 3 gün
+    <b-32> 5 gün
+    <c-32> 7 gün
+    <d-32> 14 gün
+    <e-32> 15 gün
+   <soru-33>İcra ve İflas Kanunu’na göre menkul satış talebinde süre haciz tarihinden itibaren ne kadardır?
+    <a-33> 1 ay
+    <b-33> 3 ay
+    <c-33> 6 ay
+    <d-33> 1 yıl
+    <e-33> 2 yıl
+
+
+
+
+   <soru-34> İcra ve İflas Kanunu’na göre gayrimenkul satış talebinde süre haciz tarihinden itibaren ne kadardır?
+<a-34>   1 ay
+<b-34>   3 ay
+    <c-34> 6 ay
+    <d-34> 1 yıl
+    <e-34> 2 yıl
+   <soru-35>İcra ve İflas Kanunu’na göre ihalenin feshi davasını açma süresi ihale tarihinden itibaren ne kadardır?
+<a-35>   7 gün
+<b-35>   14 gün
+    <c-35> 1 ay
+    <d-35> 2 ay
+    <e-35> 3 ay
+   <soru-36>İcra ve İflas Kanunu’na göre sıra cetveline itiraz davası açma süresi sıra cetvelinin tebliği tarihinden itibaren ne kadardır?
+    <a-36> 7 gün
+    <b-36> 14 gün
+    <c-36> 1 ay
+    <d-36> 2 ay
+    <e-36> 3 ay
+
+
+
+
+
+   <soru-37>Borç ödemeden aciz vesikası zamanaşımı süresi belgenin verildiği tarihten itibaren ne kadardır?
+    <a-37> 1 yıl
+    <b-37> 2 yıl
+    <c-37> 5 yıl
+    <d-37> 10 yıl
+    <e-37> 20 yıl
+   <soru-38>İpoteğin paraya çevrilmesi yoluyla ilamsız takipte itiraz süresi ödeme emrinin tebliği tarihinden itibaren ne kadardır?
+    <a-38> 3 gün
+    <b-38> 5 gün
+    <c-38> 7 gün
+    <d-38> 14 gün
+    <e-38> 15 gün
+   <soru-39>İflas yoluyla takipte ödeme süresi ödeme emrinin tebliği tarihinden itibaren ne kadardır?
+    <a-39> 3 gün
+    <b-39> 5 gün
+    <c-39> 7 gün
+    <d-39> 14 gün
+    <e-39> 15 gün
+
+
+
+
+
+
+   <soru-40>İflasın kaldırılmasına karşı istinaf ve temyiz başvuru süresi yerel mahkeme veya bölge adliye mahkemesi kararının tebliği tarihinden itibaren ne kadardır?
+    <a-40> 3 gün
+    <b-40> 5 gün
+    <c-40> 10 gün
+    <d-40> 20 gün
+    <e-40> 30 gün
+   <soru-41>İflasta sıra cetveline itiraz davası açma süresi sıra cetvelinin ilanından itibaren ne kadardır?
+    <a-41> 3 gün
+    <b-41> 5 gün
+    <c-41> 10 gün
+    <d-41> 15 gün
+    <e-41> 20 gün
+   <soru-42>İflasın tasfiyesi müddeti iflasın açıldığı tarihte itibaren ne kadardır?
+    <a-42> 1 ay
+    <b-42> 3 ay
+    <c-42> 6 ay
+    <d-42> 1 yıl
+    <e-42> 2 yıl
+
+
+
+
+
+
+   <soru-43>İhtiyati haciz kararına itiraz süresi haciz tarihinden itibaren ne kadardır?
+    <a-43> 3 gün
+    <b-43> 5 gün
+    <c-43> 7 gün
+    <d-43> 1 hafta
+    <e-43> 2 hafta
+   <soru-44>İhtiyati haciz kararının infazını talep etme süresi ihtiyati haciz kararının verildiği tarihten itibaren ne kadardır?
+    <a-44> 3 gün
+    <b-44> 5 gün
+    <c-44> 7 gün
+    <d-44> 10 gün
+    <e-44> 15 gün
+   <soru-45>Tasarrufun iptali davasında hak düşürücü süre tasarrufun yapıldığı tarihten itibaren ne zaman dolar?
+    <a-45> 1 yıl
+    <b-45> 2 yıl
+    <c-45> 3 yıl
+    <d-45> 5 yıl
+    <e-45> 10 yıl
+
+
+
+
+
+
+
+   <soru-46>İdare mahkemeleri ve Danıştay’da dava açma süresi işlemin öğrenildiği tarihten itibaren ne kadardır?
+    <a-46> 1 ay
+    <b-46> 2 ay
+    <c-46> 3 ay
+    <d-46> 30 gün
+    <e-46> 60 gün
+   <soru-47>Vergi mahkemelerinde dava açma süresi işlemin öğrenildiği tarihten itibaren ne kadardır?
+    <a-47> 1 ay
+    <b-47> 2 ay
+    <c-47> 3 ay
+    <d-47> 30 gün
+    <e-47> 60 gün
+   <soru-48>Tam yargı davalarında zamanaşımı süresi idari işlemden haberdar olma tarihinden itibaren ne kadardır?
+    <a-48> 1 yıl
+    <b-48> 2 yıl
+    <c-48> 3 yıl
+    <d-48> 5 yıl
+    <e-48> 10 yıl
+
+
+
+
+
+
+   <soru-49>Tam yargı davalarında dava açmak için tanınan azami zaman aşımı süresi ne kadardır?
+    <a-49> 1 yıl
+    <b-49> 2 yıl
+    <c-49> 3 yıl
+    <d-49> 5 yıl
+    <e-49> 10 yıl
+   <soru-50>İdari davalarda cevap, replik ve düplik dilekçelerini verme süresi karşı tarafın dilekçesinin ilgili tarafa tebliği tarihinden itibaren ne kadardır?
+    <a-50> 1 hafta
+    <b-50> 2 hafta
+    <c-50> 15 gün
+    <d-50> 30 gün
+    <e-50> 1 ay
+   <soru-51>Yürütmenin durdurulması kararına karşı kararın tebliği tarihinden itibaren itiraz süresi ne kadardır?
+    <a-51> 3 gün
+    <b-51> 5 gün
+    <c-51> 7 gün
+    <d-51> 14 gün
+    <e-51> 15 gün
+
+
+
+
+   <soru-52>İdari yargıda idare mahkemelerinin kararlarına karşı istinaf süresi kararın tebliğinden itibaren ne kadardır?
+    <a-52> 1 hafta
+    <b-52> 2 hafta
+    <c-52> 15 gün
+    <d-52> 30 gün
+    <e-52> 1 ay
+   <soru-53>İdari yargıda temyize başvuru için tanınan süre bölge adliye mahkemesi kararının tebliğinden itibaren ne kadardır?
+    <a-53> 1 hafta
+    <b-53> 2 hafta
+    <c-53> 15 gün
+    <d-53> 30 gün
+    <e-53> 1 ay
+   <soru-54>İdari yargıda yargılamanın yenilenmesi için genel başvuru süresi yargılamanın yenilenmesi sebebinin gerçekleştiği tarihten itibaren ne kadardır?
+    <a-54> 15 gün
+    <b-54> 30 gün
+    <c-54> 60 gün
+    <d-54> 1 yıl
+    <e-54> 10 yıl
+
+
+
+
+
+   <soru-55>İdari yargıda aynı konuda verilmiş önceki ilam hükmüne aykırı karar verilmesi nedeniyle yargılamanın yenilenmesi başvuru süresi kararın kesinleştiği tarihten itibaren ne kadardır?
+    <a-55> 15 gün
+    <b-55> 30 gün
+    <c-55> 60 gün
+    <d-55> 1 yıl
+    <e-55> 10 yıl
+   <soru-56>İdari yargıda AİHM kararı üzerine yargılamanın yenilenmesi başvuru süresi ne kadardır?
+    <a-56> 15 gün
+    <b-56> 30 gün
+    <c-56> 60 gün
+    <d-56> 1 yıl
+    <e-56> 10 yıl
+   <soru-57>Karayolları Trafik Kanunu’na dayanarak açılacak tazminat davalarında zamanaşımı süresi zarar ve failin öğrenilmesinden itibaren ne kadardır?
+    <a-57> 1 yıl
+    <b-57> 2 yıl
+    <c-57> 3 yıl
+    <d-57> 5 yıl
+    <e-57> 10 yıl
+
+
+
+   <soru-58>Çek düzenleme ve çek hesabı açma yasağı talep süresi çikin bankaya ibrazından itibaren ne kadardır?
+    <a-58> 6 ay
+    <b-58> 1 yıl
+    <c-58> 2 yıl
+    <d-58> 30 gün
+    <e-58> 60 gün
+   <soru-59>Ölüm tehlikesi içinde kaybolma halinde gaiplik başvurusu için geçmesi gereken süre kaybolma tarihinden itibaren ne kadardır?
+    <a-59> 3 ay
+    <b-59> 6 ay
+    <c-59> 1 yıl
+    <d-59> 2 yıl
+    <e-59> 5 yıl
+   <soru-60>Uzun zamandan beri haber alınamama halinde gaiplik başvurusu için geçmesi gereken süre ne kadardır?
+    <a-60> 3 ay
+    <b-60> 6 ay
+    <c-60> 1 yıl
+    <d-60> 2 yl
+    <e-60> 5 yıl
+
+
+
+
+
+   <soru-61>Nişanlılığın sona ermesinden doğan davalarda süre nişanlılığın sona erdiği tarihten itibaren ne kadardır?
+    <a-61> 1 yıl
+    <b-61> 2 yıl
+    <c-61> 5 yıl
+    <d-61> 10 yıl
+    <e-61> 20 yıl
+   <soru-62>Evliliğin sona erdiği tarihten itibaren kadın için bekleme süresi ne kadardır?
+    <a-62> 100 gün
+    <b-62> 200 gün
+    <c-62> 300 gün
+    <d-62> 400 gün
+    <e-62> 500 gün
+   <soru-63>Anlaşmalı boşanma için evlilikte geçmesi gereken asgari süre ne kadardır?
+    <a-63> 1 ay
+    <b-63> 6 ay
+    <c-63> 1 yıl
+    <d-63> 3 yıl
+    <e-63> 5 yıl
+
+
+
+
+
+
+
+   <soru-64>Ortak hayatın kurulamaması sebebiyle boşanma davası açmak için geçmesi gereken süre boşanma davasının reddi kararının kesinleştiği tarihten itibaren ne kadardır?
+    <a-64> 1 yıl
+    <b-64> 2 yıl
+    <c-64> 3 yıl
+    <d-64> 4 yıl
+    <e-64> 5 yıl
+   <soru-65>Soybağının reddi davalarında hak düşürücü süre çocuğun ergin olduğu tarihten veya kocanın baba olmadığını öğrendiği tarihten itibaren ne kadardır?
+    <a-65> 1 yıl
+    <b-65> 2 yıl
+    <c-65> 3 yıl
+    <d-65> 4 yıl
+    <e-65> 5 yıl
+   <soru-66>Tanımanın iptali davasında hak düşürücü süre iptal sebebinin öğrenildiği veya çocuğun ergin olduğu tarihten itibaren ne kadardır?
+    <a-66> 1 yıl
+    <b-66> 2 yıl
+    <c-66> 3 yıl
+    <d-66> 4 yıl
+    <e-66> 5 yıl
+
+
+   <soru-67>Koruma için özgürlüğün kısıtlanması kararına itiraz süresi kararın bildirilmesinden itibaren ne kadardır?
+    <a-67> 3 gün
+    <b-67> 5 gün
+    <c-67> 7 gün
+    <d-67> 10 gün
+    <e-67> 15 gün
+   <soru-68>Ceza davalarında temyiz başvuru süresi bölge adliye mahkemesi kararının tebliğinden itibaren ne kadardır?
+    <a-68> 1 hafta
+    <b-68> 2 hafta
+    <c-68> 5 gün
+    <d-68> 7 gün
+    <e-68> 15 gün
+   <soru-69>Ceza davalarında temyiz dilekçesine cevap süresi temyiz dilekçesinin tebliği tarihinden itibaren ne kadardır?
+    <a-69> 1 hafta
+    <b-69> 2 hafta
+    <c-69> 5 gün
+    <d-69> 7 gün
+    <e-69> 15 gün
+
+
+
+
+
+   <soru-70>Ceza davalarında AİHM kararı üzerine yargılamanın yenilenmesi için başvuru süresi AİHM kararının kesinleştiği tarihten itibaren ne kadardır?
+    <a-70> 1 yıl
+    <b-70> 2 yıl
+    <c-70> 3 yıl
+    <d-70> 5 yıl
+    <e-70> 10 yıl
+   <soru-71>İş Mahkemesi kararına karşı istinaf başvuru süresi kararın tefhimi veya tebliği tarihinden itibaren ne kadardır?
+    <a-71> 1 hafta
+    <b-71> 2 hafta
+    <c-71> 3 gün
+    <d-71> 8 gün
+    <e-71> 15 gün
+   <soru-72>İş mahkemesi kararlarıyla ilgili bölge adliye mahkemesi kararlarına karşı temyiz süresi bölge adliye mahkemesi kararının tebliği tarihinden itibaren ne kadardır?
+    <a-72> 1 hafta
+    <b-72> 2 hafta
+    <c-72> 3 gün
+    <d-72> 8 gün
+    <e-72> 15 gün
+
+
+
+   <soru-73>Amme alacaklarının tahsili usulüne göre yapılan takipte ödeme süresi ödeme emrinin tebliği tarihinden itibaren ne kadardır?
+    <a-73> 3 gün
+    <b-73> 5 gün
+    <c-73> 7 gün
+    <d-73> 2 hafta
+    <e-73> 1 ay
+   <soru-74>Amme alacaklarının tahsili usulüne göre yapılan takipte ödeme emrine itiraz süresi ödeme emrinin tebliğ tarihinden itibaren ne kadardır?
+    <a-74> 3 gün
+    <b-74> 5 gün
+    <c-74> 7 gün
+    <d-74> 2 hafta
+    <e-74> 1 ay
+   <soru-75>Tacirler bakımından satışta ayıba karşı tekeffül hükümleri uyarınca açık ayıpları bildirme süresi malın tesliminden itibaren ne kadardır?
+    <a-75> 1 gün
+    <b-75> 2 gün
+    <c-75> 3 gün
+    <d-75> 5 gün
+    <e-75> 8 gün
+
+
+
+   <soru-76>Tacirler bakımından satışta ayıba karşı tekeffül hükümlerine göre gizli ayıpları tespit ve bildirim süresi malın tesliminden itibaren ne kadardır?
+    <a-76> 1 gün
+    <b-76> 2 gün
+    <c-76> 3 gün
+    <d-76> 5 gün
+    <e-76> 8 gün
+   <soru-77>Tacirler bakımından tescile konu işlemin yapıldığı tarihten itibaren ticaret siciline tescil için başvuru süresi ne kadardır?
+    <a-77> 3 gün
+    <b-77> 7 gün
+    <c-77> 15 gün
+    <d-77> 1 hafta
+    <e-77> 2 hafta
+   <soru-78>Ticaret Sicil Müdürlüğü kararlarına itiraz süresi kararın tebliği tarihinden itibaren ne kadardır?
+    <a-78> 3 gün
+    <b-78> 4 gün
+    <c-78> 7 gün
+    <d-78> 8 gün
+    <e-78> 15 gün
+
+
+
+
+   <soru-79>Haksız rekabet nedeniyle açılacak hukuk davalarında zamanaşımı süresi dava açma hakkının öğrenildiği tarihten itibaren ne kadardır?
+    <a-79> 1 yıl
+    <b-79> 2 yıl
+    <c-79> 3 yıl
+    <d-79> 4 yıl
+    <e-79> 5 yıl
+   <soru-80>Ticari defter, kayıt ve belgeleri saklama süresi ilgili defter veya belgenin düzenlendiği veya son kullanıldığı takvim yılının bitişinden itibaren ne kadardır?
+    <a-80> 1 yıl
+    <b-80> 2 yıl
+    <c-80> 5 yıl
+    <d-80> 10 yıl
+    <e-80> 20 yıl
+   <soru-81>Ticari defter, kayıt ve belgelerin ziyaı nedeniyle mahkemeye başvuru süresi ziyaı öğrenme tarihinden itibaren ne kadardır?
+    <a-81> 3 gün
+    <b-81> 5 gün
+    <c-81> 7 gün
+    <d-81> 8 gün
+    <e-81> 15 gün
+
+
+
+   <soru-82>Acentenin denkleştirme tazminatı talep süresi acentelik ilişkisinin sona erdiği tarihten itibaren ne kadardır?
+    <a-82> 1 yıl
+    <b-82> 2 yıl
+    <c-82> 3 yıl
+    <d-82> 4 yıl
+    <e-82> 5 yıl
+   <soru-83>Acentelik sözleşmesindeki rekabet yasağı için öngörülebilecek azami süre acentelik ilişkisinin sona erdiği tarihten itibaren ne kadardır?
+    <a-83> 1 yıl
+    <b-83> 2 yıl
+    <c-83> 3 yıl
+    <d-83> 4 yıl
+    <e-83> 5 yıl
+   <soru-84>Şirkete sermaye olarak konan alacağın tahsil süresi vade veya sözleşme tarihinden itibaren ne kadardır?
+    <a-84> 2 hafta
+    <b-84> 1 ay
+    <c-84> 6 ay
+    <d-84> 1 yıl
+    <e-84> 2 yıl
+
+
+
+   <soru-85>Anonim şirket kuruluş belgelerinin saklama süresi belgenin düzenlendiği tarihten itibaren ne kadardır?
+    <a-85> 1 yıl
+    <b-85> 2 yıl
+    <c-85> 3 yıl
+    <d-85> 4 yıl
+    <e-85> 5 yıl
+   <soru-86>Anonim şirketin tescil ve ilanı süresi bakanlıktan izin alındığı veya ana sözleşmenin noterlikçe onaylandığı tarihten itibaren ne kadardır?
+    <a-86> 30 gün
+    <b-86> 60 gün
+    <c-86> 120 gün
+    <d-86> 180 gün
+    <e-86> 300 gün
+   <soru-87>Anonim şirket yönetim kurulu üyelerinin azami görev süreleri ne kadardır?
+    <a-87> 1 yıl
+    <b-87> 2 yıl
+    <c-87> 3 yıl
+    <d-87> 4 yıl
+    <e-87> 5 yıl
+
+
+
+
+
+   <soru-88>Anonim şirketin iktisap ettiği ve sermayesinin %10’unu aşan hisselerini elden çıkartma süresi payın iktisap edildiği tarihten itibaren ne kadardır?
+    <a-88> 1 yıl
+    <b-88> 2 yıl
+    <c-88> 3 yıl
+    <d-88> 4 yıl
+    <e-88> 5 yıl
+   <soru-89>Anonim şirketin kanuna aykırı iktisap ettiği veya rehin aldığı hisselerini elden çıkartma veya rehni kaldırma süresi iktisap veya rehin tarihinden itibaren ne kadarıdır?
+    <a-89> 6 ay
+    <b-89> 1 yıl
+    <c-89> 2 yıl
+    <d-89> 3 yıl
+    <e-89> 5 yıl
+   <soru-90>Anonim şirkette azlık pay sahiplerinin genel kurulu toplantıya çağırma talebi üzerine genel kurulun toplanma süresi çağrının yönetim kuruluna ulaştığı tarihten itibaren ne kadardır?
+    <a-90> 10 gün
+    <b-90> 15 gün
+    <c-90> 30 gün
+    <d-90> 45 gün
+    <e-90> 90 gün
+
+   <soru-91>Anonim şirkette genel kurul kararının iptali davasında süre karar tarihinden itibaren ne kadardır?
+    <a-91> 1 ay
+    <b-91> 2 ay
+    <c-91> 3 ay
+    <d-91> 4 ay
+    <e-91> 5 ay
+   <soru-92>Anonim şirkette sermaye artırım kararının tescili süresi karar tarihinden itibaren ne kadardır?
+    <a-92> 1 ay
+    <b-92> 2 ay
+    <c-92> 3 ay
+    <d-92> 4 ay
+    <e-92> 5 ay
+   <soru-93>Anonim şirketlerde şirket sermayesinin azaltılması işleminin iptali davasında süre tescil tarihinden itibaren ne kadardır?
+    <a-93> 6 ay
+    <b-93> 1 yıl
+    <c-93> 2 yıl
+    <d-93> 3 yıl
+    <e-93> 4 yıl
+
+
+
+
+
+
+   <soru-94>Anonim şirketlerde haksız yere ve kötü niyetle alınan kar payını geri alma hakkı bakımından zamanaşımı süresi paranın alındığı tarihten itibaren ne kadardır?
+    <a-94> 1 yıl
+    <b-94> 2 yıl
+    <c-94> 3 yıl
+    <d-94> 4 yıl
+    <e-94> 5 yıl
+   <soru-95>Anonim şirketlerde şirket zararından sorumlu olanlara açılacak tazminat davalarında azami zamanaşımı süresi zararı meydana getiren fiilin meydana geldiği tarihten itibaren ne kadardır?
+    <a-95> 1 yıl
+    <b-95> 2 yıl
+    <c-95> 3 yıl
+    <d-95> 4 yıl
+    <e-95> 5 yıl
+   <soru-96>Limited şirketin tescil ve ilan süresi kurucuların imzasının noterce onayından itibaren ne kadardır?
+    <a-96> 15 gün
+    <b-96> 30 gün
+    <c-96> 45 gün
+    <d-96> 60 gün
+    <e-96> 90 gün
+
+
+   <soru-97>Görüldüğünde ödenecek poliçelerin ibraz süresi düzenleme tarihinden itibaren ne kadardır?
+    <a-97> 1 yıl
+    <b-97> 2 yıl
+    <c-97> 3 yıl
+    <d-97> 4 yıl
+    <e-97> 5 yıl
+   <soru-98>Poliçeyi kabul edene karşı ileri sürülebilecek istemlerde zamanaşımı süresi vade tarihinden itibaren ne kadardır?
+    <a-98> 1 yıl
+    <b-98> 2 yıl
+    <c-98> 3 yıl
+    <d-98> 4 yıl
+    <e-98> 5 yıl
+   <soru-99>Bonoyu kabul edene karşı ileri sürülebilecek istemlerde zamanaşımı süresi vade tarihinden itibaren ne kadardır?
+    <a-99> 1 yıl
+    <b-99> 2 yıl
+    <c-99> 3 yıl
+    <d-99> 4 yıl
+    <e-99> 5 yıl
+
+
+
+
+
+
+    <soru-100>Bono hamilinin cirantalara ve keşideciye karşı süreceği işlemlerde zamanaşımı süresi vade veya protesto tarihinden itibaren ne kadardır?
+    <a-100> 1 yıl
+    <b-100> 2 yıl
+    <c-100> 3 yıl
+    <d-100> 4 yıl
+    <e-100> 5 yıl
+    <soru-101>Düzenlendiği yerlerde ödenecek çeklerde ibraz süresi keşide tarihinden itibaren ne kadardır?
+    <a-101> 5 gün
+    <b-101> 7 gün
+    <c-101> 8 gün
+    <d-101> 10 gün
+    <e-101> 15 gün
+    <soru-102>Düzenlendiği yerden başka bir yerde ödenecek olan çeklerde ibraz süresi keşide tarihinden itibaren ne kadardır?
+    <a-102> 1 ay
+    <b-102> 2 ay
+    <c-102> 3 ay
+    <d-102> 4 ay
+    <e-102> 5 ay
+
+
+
+
+
+    <soru-103>Düzenleme yeri ile ödeme yeri farklı kıtalarda olan çeklerde ibraz süresi keşide tarihinden itibaren ne kadardır?
+    <a-103> 1 ay
+    <b-103> 2 ay
+    <c-103> 3 ay
+    <d-103> 4 ay
+    <e-103> 5 ay
+    <soru-104>Çek borçlusunun diğer çek borçlularına başvurma hakkında zamanaşımı süresi çek bedelinin ödendiği veya kendisine dava açıldığı tarihten itibaren ne kadardır?
+    <a-104> 1 yıl
+    <b-104> 2 yıl
+    <c-104> 3 yıl
+    <d-104> 4 yıl
+    <e-104> 5 yıl
+    <soru-105>Tacirler bakımından taşınan eşyadaki açıkça görünmeyen ziya ve hasarı taşıyana bildirme süresi teslim tarihinden itibaren ne kadardır?
+    <a-105> 3 gün
+    <b-105> 5 gün
+    <c-105> 7 gün
+    <d-105> 14 gün
+    <e-105> 15 gün
+
+
+    <soru-106>Gönderilen eşyanın geç teslimini taşıyana bildirme süresi teslim tarihinden itibaren ne kadardır?
+    <a-106> 7 gün
+    <b-106> 14 gün
+    <c-106> 21 gün
+    <d-106> 2 hafta
+    <e-106> 1 ay
+    <soru-107>Taşıma işleri komisyonculuğundan kaynaklanan istemlerde zamanaşımı süresi zararı ve borçluyu öğrenme tarihinden itibaren ne kadardır?
+    <a-107> 1 yıl
+    <b-107> 2 yıl
+    <c-107> 3 yıl
+    <d-107> 4 yıl
+    <e-107> 5 yıl
+    <soru-108>Bayrak şahadetnamesinin geçerlilik süresi ne kadardır?
+    <a-108> 1 yıl
+    <b-108> 2 yıl
+    <c-108> 3 yıl
+    <d-108> 4 yıl
+    <e-108> 5 yıl
+
+
+
+
+
+    <soru-109>Yolsuz tescile dayanarak geminin mülkiyetin iktisabında olağan zamanaşımı süresi ne kadardır?
+    <a-109> 1 yıl
+    <b-109> 2 yıl
+    <c-109> 3 yıl
+    <d-109> 5 yıl
+    <e-109> 10 yıl
+    <soru-110>Gemi mülkiyetinin olağanüstü zamanaşımı ile iktisabında geçmesi gereken süre ne kadardır?
+    <a-110> 1 yıl
+    <b-110> 2 yıl
+    <c-110> 3 yıl
+    <d-110> 5 yıl
+    <e-110> 10 yıl
+    <soru-111>Donatma iştirakinin ticaret ve gemi sicillerine tescil süresi donatma iştirakinin yapıldığı tarihten itibaren ne kadardır?
+    <a-111> 3 gün
+    <b-111> 5 gün
+    <c-111> 7 gün
+    <d-111> 14 gün
+    <e-111> 15 gün
+
+
+
+
+
+    <soru-112>Yüklemede sürastarya süresi yükleme süresinin bittiği tarihten itibaren ne kadardır?
+    <a-112> 5 gün
+    <b-112> 7 gün
+    <c-112> 8 gün
+    <d-112> 10 gün
+    <e-112> 15 gün
+    <soru-113>Boşaltmada sürastarya süresi boşaltma süresinin bittiği tarihten itibaren ne kadardır?
+    <a-113> 5 gün
+    <b-113> 7 gün
+    <c-113> 8 gün
+    <d-113> 10 gün
+    <e-113> 15 gün
+    <soru-114>Deniz taşımacılığında teslim edilmeyen eşyanın zayi sayılması için geçecek süre teslim süresinin bittiği tarihten itibaren ne kadardır?
+    <a-114> 15 gün
+    <b-114> 30 gün
+    <c-114> 45 gün
+    <d-114> 60 gün
+    <e-114> 90 gün
+
+
+
+
+
+
+    <soru-115>Deniz taşımasında haricen belli olmayan ziya ve hasarın taşıyana bildirim süresi eşyanın gönderilene teslim tarihinden itibaren ne kadardır?
+    <a-115> 3 gün
+    <b-115> 5 gün
+    <c-115> 7 gün
+    <d-115> 10 gün
+    <e-115> 15 gün
+    <soru-116>Deniz taşımasına konu olan eşyanın teslimindeki gecikmenin taşıyana bildirim süresi eşyanın gönderilene teslim tarihinden itibaren ne kadardır?
+    <a-116> 15 gün
+    <b-116> 30 gün
+    <c-116> 45 gün
+    <d-116> 60 gün
+    <e-116> 90 gün
+    <soru-117>Deniz taşımalarında taşıyana açılacak tazminat davaları bakımından hak düşürücü süre eşyanın teslim edildiği veya edilmesi gereken tarihten itibaren ne kadardır?
+    <a-117> 1 yıl
+    <b-117> 2 yıl
+    <c-117> 3 yıl
+    <d-117> 4 yıl
+    <e-117> 5 yıl
+
+    <soru-118>Gemi kira sözleşmeleri, zaman çarteri sözleşmeleri ile navlun sözleşmelerinden ve konşimentodan doğan alacaklarda zamanaşımı süresi alacağın muaccel olduğu tarihten itibaren ne kadardır?
+    <a-118> 1 yıl
+    <b-118> 2 yıl
+    <c-118> 3 yıl
+    <d-118> 4 yıl
+    <e-118> 5 yıl
+    <soru-119>Denizde yolcu taşımasında bagajdaki haricen belli olmayan hasarı taşıyana bildirim süresi bagajın teslimi veya teslim edilmesi gereken tarihten itibaren ne kadardır?
+    <a-119> 3 gün
+    <b-119> 5 gün
+    <c-119> 7 gün
+    <d-119> 14 gün
+    <e-119> 15 gün
+    <soru-120>Çatmaya dayalı tazminat taleplerinde zamanaşımı süresi çatmanın meydana geldiği tarihten itibaren ne kadardır?
+    <a-120> 1 yıl
+    <b-120> 2 yıl
+    <c-120> 3 yıl
+    <d-120> 4 yıl
+    <e-120> 5 yıl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <soru-121>Çatma nedeniyle donatanların birbirlerine rücu haklarında zamanaşımı süresi ödeme tarihinden itibaren ne kadardır?
+    <a-121> 1 yıl
+    <b-121> 2 yıl
+    <c-121> 3 yıl
+    <d-121> 4 yıl
+    <e-121> 5 yıl
+    <soru-122>Kurtarma ve enkaz kaldırma faaliyetlerinden doğan alacaklarda zamanaşımı süresi kurtarma veya enkaz kaldırma faaliyetlerinin sona erdiği tarihten itibaren ne kadardır?
+    <a-122> 1 yıl
+    <b-122> 2 yıl
+    <c-122> 3 yıl
+    <d-122> 4 yıl
+    <e-122> 5 yıl
+    <soru-123>Sigorta sözleşmesinden doğan istemlerde zamanaşımı süresi alacağın muaccel olduğu tarihten itibaren ne kadardır?
+    <a-123> 1 yıl
+    <b-123> 2 yıl
+    <c-123> 3 yıl
+    <d-123> 4 yıl
+    <e-123> 5 yıl
+
+
+
+
+
+    <soru-124>Sigorta tazminatına ve sigorta bedeline ilişkin istemlerde zamanaşımı süresi rizikonun gerçekleştiği tarihten itibaren ne kadardır?
+    <a-124> 1 yıl
+    <b-124> 3 yıl
+    <c-124> 6 yıl
+    <d-124> 12 yıl
+    <e-124> 15 yıl
+    <soru-125>Sigortalının yükümlülüklerini kusurlu olarak ihlal etmesi nedeniyle sigortacının akdi fesih hakkı süresi öğrenmeden itibaren ne kadardır?
+    <a-125> 1 ay
+    <b-125> 2 ay
+    <c-125> 3 ay
+    <d-125> 4 ay
+    <e-125> 5 ay
+    <soru-126>Sorumluluk sigortalarında zamanaşımı süresi sigorta konusu olay tarihinden itibaren ne kadardır?
+    <a-126> 1 yıl
+    <b-126> 2 yıl
+    <c-126> 5 yıl
+    <d-126> 10 yıl
+    <e-126> 20 yıl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <soru-127>Aşırı yararlanma durumunda akdin feshi veya edimler arasındaki oransızlığın giderilmesini talep azami süresi sözleşmenin kuruluşundan itibaren ne kadardır?
+    <a-127> 1 yıl
+    <b-127> 2 yıl
+    <c-127> 3 yıl
+    <d-127> 4 yıl
+    <e-127> 5 yıl
+    <soru-128>Yanılma, aldatma ve korkutma suretiyle irade bozukluğunun giderilmesi süresi yanılma aldatma veya korkutmanın ortadan kalkmasından itibaren ne kadardır?
+    <a-128> 1 yıl
+    <b-128> 2 yıl
+    <c-128> 3 yıl
+    <d-128> 4 yıl
+    <e-128> 5 yıl
+    <soru-129>Haksız fiillerde zamanaşımı süresizararı ve tazminat yükümlüsünü öğrenme tarihinden itibaren ne kadardır?
+    <a-129> 1 yıl
+    <b-129> 2 yıl
+    <c-129> 3 yıl
+    <d-129> 4 yıl
+    <e-129> 5 yıl
+
+
+    <soru-130>Haksız fiilerde azami zamanaşımı süresi haksız fiilin işlendiği tarihten itibaren ne kadardır?
+    <a-130> 1 yıl
+    <b-130> 2 yıl
+    <c-130> 5 yıl
+    <d-130> 10 yıl
+    <e-130> 20 yıl
+    <soru-131>Sebepsiz zenginleşmeye dayalı taleplerde zamanaşımı süresi geri isteme hakkını öğrenme tarihinden itibaren ne kadardır?
+    <a-131> 1 yıl
+    <b-131> 2 yıl
+    <c-131> 3 yıl
+    <d-131> 4 yıl
+    <e-131> 5 yıl
+    <soru-132>Sebepsiz zenginleşmeye dayalı taleplerde azami zamanaşımı süresi zenginleşmenin gerçekleştiği tarihten itibaren ne kadardır?
+    <a-132> 1 yıl
+    <b-132> 3 yıl
+    <c-132> 5 yıl
+    <d-132> 10 yıl
+    <e-132> 20 yıl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <soru-133>Genel alacak zamanaşımı süresi alacağın doğduğu tarihten itibaren ne kadardır?
+    <a-133> 1 yıl
+    <b-133> 2 yıl
+    <c-133> 5 yıl
+    <d-133> 10 yıl
+    <e-133> 20 yıl
+    <soru-134>Malvarlığı veya işletmenin devrinde devredenin müteselsil sorumluluk süresi bildirme veya ilanla duyurma tarihinden itibaren ne kadardır?
+    <a-134> 1 yıl
+    <b-134> 2 yıl
+    <c-134> 3 yıl
+    <d-134> 4 yıl
+    <e-134> 5 yıl
+    <soru-135>Taşınır mal satış sözleşmesinde ayıba karşı tekeffül süresi satılanın alıcıya devrinden itibaren ne kadardır?
+    <a-135> 1 yıl
+    <b-135> 2 yıl
+    <c-135> 3 yıl
+    <d-135> 4 yıl
+    <e-135> 5 yıl
+
+
+
+
+
+    <soru-136>Önalım, geri alım ve alım sözleşmelerinde azami süre sözleşmenin kurulduğu tarihten itibaren ne kadardır?
+    <a-136> 1 yıl
+    <b-136> 2 yıl
+    <c-136> 3 yıl
+    <d-136> 5 yıl
+    <e-136> 10 yıl
+    <soru-137>Önalım davasında süre satışın bildirildiği tarihten itibaren ne kadarır?
+    <a-137> 1 ay
+    <b-137> 2 ay
+    <c-137> 3 ay
+    <d-137> 4 ay
+    <e-137> 5 ay
+    <soru-138>Önalım davasında azami süre satış tarihinden itibaren ne kadardır?
+    <a-138> 1 yıl
+    <b-138> 2 yıl
+    <c-138> 3 yıl
+    <d-138> 4 yıl
+    <e-138> 5 yıl
+
+
+
+
+
+
+
+    <soru-139>Taşınmaz mal satış sözleşmelerinde ayıba karşı tekeffül süresi mülkiyetin geçtiği tarihten itibaren ne kadardır?
+    <a-139> 1 yıl
+    <b-139> 2 yıl
+    <c-139> 3 yıl
+    <d-139> 4 yıl
+    <e-139> 5 yıl
+    <soru-140>Özenle kullanma ve komşulara saygı yükümlülüğünü ihlal eden kiracının aykırılığı giderme süresi yazılı ihtarın tebliğinden itibaren ne kadardır?
+    <a-140> 7 gün
+    <b-140> 14 gün
+    <c-140> 15 gün
+    <d-140> 21 gün
+    <e-140> 30 gün
+    <soru-141>Taşınır kiralarında fesih bildiriminin hüküm doğurma süresi fesih bildirim tarihinden itibaren ne kadardır?
+    <a-141> 3 gün
+    <b-141> 5 gün
+    <c-141> 7 gün
+    <d-141> 14 gün
+    <e-141> 15 gün
+
+
+
+
+    <soru-142>Mesleki faaliyet gereği kiraya verilen taşınır kiralarında feshi ihbar süresi üç aylık kira döneminin sonundan ne kadar öncedir?
+    <a-142> 1 ay
+    <b-142> 2 ay
+    <c-142> 3 ay
+    <d-142> 4 ay
+    <e-142> 5 ay
+    <soru-143>Konut ve çatılı işyeri kiralarında kira artırımını önceden ihtar süresi yeni kira döneminin başlangıcından ne kadar öncesine kadardır?
+    <a-143> 15 gün
+    <b-143> 21 gün
+    <c-143> 30 gün
+    <d-143> 45 gün
+    <e-143> 60 gün
+    <soru-144>Konut ve çatılı işyeri kiralarında kiracının akdi fesih için önceden ihtar süresi sözleşme süresinin bitiminden ne kadardır?
+    <a-144> 7 gün
+    <b-144> 15 gün
+    <c-144> 21 gün
+    <d-144> 30 gün
+    <e-144> 60 gün
+
+
+
+    <soru-145>Yeni malikin gereksinimi nedeniyle tahliye bildirim süresi taşınmazı edinme tarihinden itibaren ne kadardır?
+    <a-145> 1 ay
+    <b-145> 2 ay
+    <c-145> 3 ay
+    <d-145> 4 ay
+    <e-145> 5 ay
+    <soru-146>Yeni malikin gereksinimi nedeniyle tahliye davasında süre tahliye bildirim süresinden itibaren ne kadardır?
+    <a-146> 1 ay
+    <b-146> 2 ay
+    <c-146> 3 ay
+    <d-146> 5 ay
+    <e-146> 6 ay
+    <soru-147>Yazılı tahliye taahhüdüne dayalı tahliye davasında süre tahliye taahhüt tarihinden itibaren ne kadardır?
+    <a-147> 1 ay
+    <b-147> 2 ay
+    <c-147> 3 ay
+    <d-147> 4 ay
+    <e-147> 5 ay
+
+
+
+
+
+    <soru-148>İki haklı ihtara dayalı tahliye davasında süre ihtarların yapıldığı kira döneminin bitimi tarihinden ne kadar öncesinde sona erer?
+    <a-148> 1 ay
+    <b-148> 2 ay
+    <c-148> 3 ay
+    <d-148> 4 ay
+    <e-148> 5 ay
+    <soru-149>İşyeri devrinde devreden işverenin müteselsil sorumluluk süresi işyeri devir tarihinden itibaren ne kadardır?
+    <a-149> 1 yıl
+    <b-149> 2 yıl
+    <c-149> 3 yıl
+    <d-149> 4 yıl
+    <e-149> 5 yıl
+    <soru-150>Tüketim ödüncünde ödünç alanın iade yükümlülüğünün başlama süresi ilk talep tarihinden itibaren ne kadardır?
+    <a-150> 1 hafta
+    <b-150> 2 hafta
+    <c-150> 3 hafta
+    <d-150> 6 hafta
+    <e-150> 12 hafta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
