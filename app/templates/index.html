@@ -1,10 +1,537 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>This is the test page.</title>
-</head>
-<body>
-<h1>Hi.</h1>
-<p>The server works! Now, get back to work.</p>
-</body>
+
+	<head>
+		
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+		<title>Test</title>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        
+        <!-- Axios and CSRF -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <!-- <script src="/static/js/csrf.js"></script> -->
+        <!-- Axios and CSRF -->
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+
+		<style>
+			
+			body {
+				margin: 0;
+				padding: 0;
+				background-color: #ffffff;
+				overflow: hidden;
+				font-family: 'Open Sans', sans-serif;
+			}
+
+			.box-sizing {
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+			}
+
+			.user-select-none {
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+
+			.white-background {
+				background-color: #ffffff !important;
+			}
+
+			.loading {
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				font-size: 30px;
+				color: #e91d63;
+				font-weight: 600;
+			}
+
+			.page {
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100vh;
+			}
+
+			.header {
+				position: relative;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 150px;
+			}
+
+			.body {
+				position: relative;
+				flex: 1;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				background-color: #e91d63;
+				overflow: auto;
+			}
+
+			.footer {
+				position: relative;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100px;
+				background-color: #666666;
+				text-align: center;
+				color: #ffffff;
+				font-size: 20px;
+			}
+
+			.login-form {
+				position: relative;
+				width: 500px;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.login-form-col {
+				position: relative;
+				flex: 2;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				padding-right: 20px;
+			}
+
+			.login-form-col:last-child {
+				flex: 1;
+				padding-right: 0;
+			}
+
+			.text-input {
+				position: relative;
+				width: 100%;
+				height: 50px;
+				padding: 0 20px;
+				border: none;
+				outline: none;
+				border-radius: 5px;
+				color: #e91d63;
+				font-size: 20px;
+				font-weight: 600;
+			}
+
+			.text-input::placeholder {
+				color: #e91d63;
+				opacity: 0.7;
+			}
+
+			.text-input:-ms-input-placeholder {
+				color: #e91d63;
+				opacity: 0.7;
+			}
+
+			.text-input::-ms-input-placeholder {
+				color: #e91d63;
+				opacity: 0.7;
+			}
+
+			.button {
+				position: relative;
+				width: 100%;
+				height: 50px;
+				padding: 0 20px;
+				border: none;
+				outline: none;
+				border-radius: 5px;
+				color: #e91d63;
+				background-color: #ffffff;
+				font-size: 20px;
+				font-weight: 600;
+				cursor: pointer;
+			}
+
+			.question-form {
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100%;
+			}
+
+			.question-form-user-data {
+				position: relative;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				min-height: 50px;
+				background-color: #ffffff;
+				border-top: solid 2px #e91d63;
+			}
+
+			.question-form-user-data-col {
+				position: relative;
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: flex-start;
+				padding: 0 20px;
+				font-size: 16px;
+				font-weight: 600;
+			}
+
+			.question-form-user-data-col:last-child {
+				align-items: flex-end;
+			}
+
+			.question-form-body {
+				position: relative;
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				padding: 20px;
+				background-color: #ffffff;
+				border-top: solid 2px #e91d63;
+			}
+
+			.question-content {
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: flex-start;
+				width: 50%;
+				height: 100%;
+			}
+
+			.question-text {
+				position: relative;
+				width: 100%;
+				margin-bottom: 10px;
+				font-size: 18px;
+				color: #000000;
+				text-align: left;
+				word-break: break-word;
+			}
+
+			.question-options {
+				position: relative;
+				flex: 1;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				flex-wrap: wrap;
+				width: 100%;
+			}
+
+			.question-option {
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: calc((100% - 10px) / 2);
+				min-height: calc((100% - 20px) / 3);
+				margin: 0 10px 10px 0;
+				padding: 10px;
+				border: solid 2px #e91d63;
+				border-radius: 5px;
+				text-align: center;
+				color: #e91d63;
+				font-size: 16px;
+				font-weight: 600;
+				word-break: break-word;
+				cursor: pointer;
+			}
+
+			.question-option:nth-child(2n+0) {
+				margin-right: 0;
+			}
+
+			.question-option:last-child {
+				margin: 0;
+				margin-bottom: 10px;
+			}
+
+			@media screen and (max-width: 700px) {
+
+				.header {
+					height: 100px;
+				}
+
+				.question-content {
+					width: 100%;
+				}
+
+				.question-form-user-data {
+					flex-direction: column;
+					padding: 20px 0;
+				}
+
+				.question-form-user-data-col {
+					flex: 1;
+					width: 100%;
+					margin-bottom: 10px;
+					align-items: center !important;
+				}
+
+				.question-form-user-data-col:last-child {
+					margin-bottom: 0;
+				}
+
+				.login-form {
+					flex-direction: column;
+					width: calc(100% - 40px);
+				}
+
+				.login-form-col {
+					flex: 1;
+					width: 100%;
+					padding-right: 0;
+					margin-bottom: 20px;
+				}
+
+				.text-input {
+					text-align: center;
+				}
+
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<div id="app" class="page user-select-none">
+			
+			<div v-if="is_loading == true" class="loading">
+				Yükleniyor..
+			</div>
+
+			<template v-else>
+				
+				<div class="header">
+					HEADER
+				</div>
+	
+				<div class="body box-sizing" v-bind:class="{ 'white-background': active_screen != 1 }">
+	
+					<div v-if="active_screen == 1" class="login-form">
+						<div class="login-form-col box-sizing">
+							<input type="text" class="text-input box-sizing" v-model="email" placeholder="Email adresinizi yaz">
+						</div>
+						<div class="login-form-col box-sizing">
+							<input type="button" class="button box-sizing" v-on:click="login" value="BAŞLA">
+						</div>
+					</div>
+
+					<div v-else-if="active_screen == 2" class="question-form">
+						<div class="question-form-user-data box-sizing">
+							<div class="question-form-user-data-col box-sizing">[[email]]</div>
+							<div class="question-form-user-data-col box-sizing" style="flex: initial; align-items: center; font-size: 30px; color: #e91d63;">[[timing]] sn</div>
+							<div class="question-form-user-data-col box-sizing" style="font-size: 12px;">
+								<span>Puan: [[score]]</span>
+								<span>En Yüksek Puan: [[max_score]]</span>
+							</div>
+						</div>
+						<div class="question-form-body box-sizing">
+
+							<div class="question-content">
+
+								<div class="question-text"><b>[[question_index]].</b> [[question.text]]</div>
+
+								<div class="question-options">
+									<div v-for="(option, index) in question.options" v-on:click="pick_option(index)" class="question-option box-sizing">[[option.text]]</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+	
+				</div>
+	
+				<div class="footer">REKLAM ALANI</div>
+
+			</template>
+
+		</div>
+
+		<script>
+			
+			new Vue({
+                delimiters: ['[[', ']]'],
+	            el: '#app',
+	            data: function () {
+	                return {
+						is_loading: true,
+                        question_limit: 150,
+						active_screen: 1,
+	                	email: '',
+						timing: 30,
+						timing_interval: '',
+						score: 0,
+						max_score: 0,
+						answered: [],
+						question_index: 1,
+						question: {}
+	                }
+	            },
+				mounted: function() {
+					this.has_logged_in();
+				},
+	            methods: {
+					has_logged_in: function() {
+
+						let email = localStorage.getItem('email');
+						let max_score = localStorage.getItem('max_score');
+
+						if(email != null && email != '') {
+							this.email = email;
+							this.restart();
+						}
+
+						if(max_score != null && max_score != '') {
+							this.max_score = max_score;
+						}
+
+						this.is_loading = false;
+
+					},
+	                login: function() {
+
+						if(this.email == '') {
+							alert('Başlamak için email adresini yazmalısın!');
+						}else if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.email) == false) {
+							alert('Başlamak için geçerli bir email adresi yazmalısın!');
+						}else{
+							localStorage.setItem('email', this.email);
+							this.restart();
+						}
+
+					},
+					start_timing: function() {
+
+						let self = this;
+						this.timing = 30;
+
+						this.timing_interval = setInterval(() => {
+							if(self.timing > 0) {
+								self.timing -= 1;
+							}else{
+								alert('Süre doldu. Test yeniden başlatılacak!');
+								self.restart();
+							}
+						}, 1000);
+
+					},
+					restart: function() {
+
+						clearInterval(this.timing_interval);
+
+						this.active_screen = 2;
+						this.question_index = 1;
+						this.score = 0;
+						this.answered = [];
+
+						this.get_question();
+						this.start_timing();
+
+					},
+					get_question: function() {
+
+						if(this.answered.length < this.question_limit) {
+
+                            let self = this;
+							let question_id = parseInt(Math.floor(Math.random() * this.question_limit) + 1);
+
+							if(this.answered.indexOf(question_id) == -1) {
+
+                                axios({
+                                    method: 'get',
+                                    headers: {
+                                        'Content-Type': 'application/json'
+                                    },
+                                    url: '/api/question?id=' + question_id
+                                }).then(function (response) {
+                                    
+                                    console.log(response.data);
+
+                                    self.question = response.data;
+                                    self.answered.push(question_id);
+                                    
+                                }).catch(function (error) {
+                                    console.log(error);
+                                });
+
+							}else{
+								this.get_question();
+							}
+
+						}else{
+							alert('Tebrikler, tüm soruları doğru yanıtladınız. Test yeniden başlatılacak!');
+							this.restart();
+						}
+
+					},
+					pick_option: function(option_id) {
+
+						if(this.question.options[option_id].is_correct == true) {
+
+							this.score += 1;
+							this.question_index += 1;
+
+							if(this.score > this.max_score) {
+								this.max_score = this.score;
+								localStorage.setItem('max_score', this.max_score);
+							}
+
+							clearInterval(this.timing_interval);
+
+							this.get_question();
+							this.start_timing();
+
+						}else{
+							alert('Yanlış cevap verdin. Test yeniden başlatılacak!');
+							this.restart();
+						}
+
+					}
+	            }
+	        });
+			
+		</script>
+
+	</body>
+
 </html>
