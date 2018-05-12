@@ -13,6 +13,11 @@ class Question(Resource):
             try:
                 data = get_question(int(question_id))
                 if data:
+                    # Dogru cevap Log
+                    for i in data['options']:
+                        if i['is_correct']:
+                            print('Cevap : ', i['text'])
+                    # Dogru cevap Log
                     return data
 
                 print('Bu question_id veritabanında bulunamadi')
