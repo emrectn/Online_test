@@ -17,7 +17,6 @@ class Question(Resource):
                     print(data)
                     return data
 
-
                 print('Bu question_id veritabanında bulunamadi')
                 abort(403)
             except ValueError:
@@ -37,7 +36,7 @@ class Question(Resource):
 
         if password == '123456':
             data = add_question(question, answer1, answer2, answer3, answer4,
-                                  answer5, true_answer)
+                                answer5, true_answer)
 
             if data:
                 return {'status': 'OK',

@@ -10,7 +10,6 @@ def get_question(question_id):
         true_id = question.to_dict()['true_answer']
         data = question.to_frontend()
         data['options'][true_id]['is_correct'] = True
-        return data
 
     else:
         data = None
@@ -18,7 +17,9 @@ def get_question(question_id):
     return data
 
 
-def add_question(question, answer1, answer2, answer3, answer4, answer5, true_answer):
+def add_question(question, answer1, answer2, answer3, answer4, answer5,
+                 true_answer):
+
     db = DBSession()
     question = Question(question=question,
                         answer1=answer1,
