@@ -104,13 +104,23 @@
 				font-size: 20px;
 			}
 
+            .login {
+                position: relative;
+                width: 500px;
+                display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+            }
+
 			.login-form {
 				position: relative;
-				width: 500px;
+				width: 100%;
 				display: flex;
 				flex-direction: row;
 				justify-content: center;
 				align-items: center;
+                margin-bottom: 40px;
 			}
 
 			.login-form-col {
@@ -139,6 +149,7 @@
 				color: #e91d63;
 				font-size: 20px;
 				font-weight: 600;
+                text-transform: lowercase;
 			}
 
 			.text-input::placeholder {
@@ -170,6 +181,94 @@
 				font-weight: 600;
 				cursor: pointer;
 			}
+
+            .colored-button {
+				position: relative;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+				width: 100%;
+				height: 50px;
+				padding: 0 20px;
+				border: none;
+				outline: none;
+				border-radius: 5px;
+				color: #ffffff;
+				font-size: 20px;
+				font-weight: 600;
+				cursor: pointer;
+			}
+
+            .colored-button img {
+                width: 30px;
+                height: 30px;
+                margin-right: 10px;
+            }
+
+            .top-list {
+                position: relative;
+                width: 100%;
+                display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+            }
+
+            .top-list-header {
+                position: relative;
+                width: 100%;
+                display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+                margin-bottom: 20px;
+                color: #ffffff;
+                font-size: 16px;
+                text-align: center;
+                word-break: break-word;
+                font-weight: 600;
+            }
+
+            .top-list-body {
+                position: relative;
+                width: 100%;
+                display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+            }
+
+            .top-list-body-row {
+                position: relative;
+                width: 100%;
+                margin-bottom: 10px;
+                display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+            }
+
+            .top-list-body-col {
+                position: relative;
+                display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+                font-size: 14px;
+                color: #ffffff;
+                word-break: break-word;
+            }
+
+            .top-list-body-col:first-child {
+                flex: 1;
+                align-items: flex-start;
+            }
+
+            .top-list-body-col:last-child {
+                width: 100px;
+                align-items: flex-end;
+            }
 
 			.question-form {
 				position: relative;
@@ -282,10 +381,98 @@
 				margin-bottom: 10px;
 			}
 
+            .result {
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100%;
+                border-top: solid 2px #e91d63;
+			}
+
+            .result-content {
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 500px;
+				height: 100%;
+			}
+
+            .result-new-record {
+                position: relative;
+                width: 80%;
+                margin-bottom: 40px;
+                display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+                font-size: 20px;
+                color: #e91d63;
+                word-break: break-word;
+                font-weight: 600;
+            }
+
+            .result-text {
+                position: relative;
+                width: 100%;
+                margin-bottom: 20px;
+                display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+                font-size: 16px;
+                color: #000000;
+                word-break: break-word;
+            }
+
+            .result-scores {
+                position: relative;
+                width: 50%;
+                margin-bottom: 40px;
+                display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+            }
+
+            .result-score-row {
+                position: relative;
+                width: 100%;
+                display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+            }
+
+            .result-score-col {
+                position: relative;
+                display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+                font-size: 16px;
+                color: #000000;
+                word-break: break-word;
+            }
+
+            .result-score-col:first-child {
+                flex: 1;
+                align-items: flex-start;
+            }
+
+            .result-score-col:last-child {
+                width: 100px;
+                align-items: flex-end;
+            }
+
 			@media screen and (max-width: 700px) {
 
 				.header {
-					height: 100px;
+                    display: none;
 				}
 
 				.question-content {
@@ -294,7 +481,7 @@
 
 				.question-form-user-data {
 					flex-direction: column;
-					padding: 20px 0;
+					padding: 10px 0;
 				}
 
 				.question-form-user-data-col {
@@ -306,11 +493,16 @@
 
 				.question-form-user-data-col:last-child {
 					margin-bottom: 0;
+                    flex-direction: row;
+                    justify-content: space-between;
+				}
+
+                .login {
+					width: calc(100% - 40px);
 				}
 
 				.login-form {
 					flex-direction: column;
-					width: calc(100% - 40px);
 				}
 
 				.login-form-col {
@@ -323,6 +515,30 @@
 				.text-input {
 					text-align: center;
 				}
+
+                .result-content {
+					width: calc(100% - 40px);
+                    padding: 20px 0;
+				}
+
+                .result-new-record {
+                    width: 100%;
+                }
+
+                .result-scores {
+                    width: 100%;
+                }
+
+                .colored-button {
+                    font-size: 14px;
+                    padding: 0 10px;
+                }
+
+                .colored-button img {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 0;
+                }
 
 			}
 
@@ -346,13 +562,34 @@
 	
 				<div class="body box-sizing" v-bind:class="{ 'white-background': active_screen != 1 }">
 	
-					<div v-if="active_screen == 1" class="login-form">
-						<div class="login-form-col box-sizing">
-							<input type="text" class="text-input box-sizing" v-model="email" placeholder="Email adresinizi yaz">
-						</div>
-						<div class="login-form-col box-sizing">
-							<input type="button" class="button box-sizing" v-on:click="login" value="BAŞLA">
-						</div>
+					<div v-if="active_screen == 1" class="login">
+                        
+                        <div class="login-form">
+
+                            <div class="login-form-col box-sizing">
+                                <input type="email" class="text-input box-sizing" v-model="email" placeholder="Email adresinizi yaz">
+                            </div>
+                            <div class="login-form-col box-sizing">
+                                <input type="button" class="button box-sizing" v-on:click="login" value="BAŞLA">
+                            </div>
+
+                        </div>
+
+                        <div class="top-list">
+                            
+                            <div class="top-list-header">EN İYİLER</div>
+
+                            <div class="top-list-body">
+
+                                <div class="top-list-body-row">
+                                    <div class="top-list-body-col">bedirhan@gmail.com</div>
+                                    <div class="top-list-body-col">11</div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
 					</div>
 
 					<div v-else-if="active_screen == 2" class="question-form">
@@ -377,6 +614,43 @@
 							</div>
 
 						</div>
+                    </div>
+                    
+                    <div v-if="active_screen == 3" class="result box-sizing">
+                        
+                        <div class="result-content box-sizing">
+
+                            <div v-if="score > 0 && score == max_score" class="result-new-record">
+                                TEBRİKLER, YENİ REKOR!
+                            </div>
+
+                            <div class="result-text">
+                                [[result_text]]
+                            </div>
+
+                            <div class="result-scores">
+                                <div class="result-score-row">
+                                    <div class="result-score-col">Puan:</div>
+                                    <div class="result-score-col">[[score]]</div>
+                                </div>
+                                <div class="result-score-row">
+                                    <div class="result-score-col">En Yüksek Puan:</div>
+                                    <div class="result-score-col">[[max_score]]</div>
+                                </div>
+                            </div>
+    
+                            <button class="colored-button box-sizing" v-on:click="restart();" style="background-color: #e91d63; margin-bottom: 20px;">
+                                <img src="/static/images/icons/refresh.png" />
+                                <div style="flex: 1;">Yeniden Oyna</div>
+                            </button>
+
+                            <button class="colored-button box-sizing" style="background-color: #3b5998;">
+                                <img src="/static/images/icons/facebook.png" />
+                                <div style="flex: 1;">Facebook Sayfamızı Ziyaret Edin</div>
+                            </button>
+
+                        </div>
+
 					</div>
 	
 				</div>
@@ -402,27 +676,24 @@
 						timing_interval: '',
 						score: 0,
 						max_score: 0,
+                        result_text: '',
 						answered: [],
+                        top_list: [],
 						question_index: 1,
 						question: {}
 	                }
 	            },
-				mounted: function() {
+				created: function() {
 					this.has_logged_in();
+                    this.get_top_list();
 				},
 	            methods: {
 					has_logged_in: function() {
 
 						let email = localStorage.getItem('email');
-						let max_score = localStorage.getItem('max_score');
 
 						if(email != null && email != '') {
 							this.email = email;
-							this.restart();
-						}
-
-						if(max_score != null && max_score != '') {
-							this.max_score = max_score;
 						}
 
 						this.is_loading = false;
@@ -430,13 +701,31 @@
 					},
 	                login: function() {
 
+                        let self = this;
+
 						if(this.email == '') {
 							alert('Başlamak için email adresini yazmalısın!');
 						}else if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.email) == false) {
 							alert('Başlamak için geçerli bir email adresi yazmalısın!');
 						}else{
-							localStorage.setItem('email', this.email);
-							this.restart();
+
+                            axios({
+                                method: 'post',
+                                headers: {
+                                    'Content-Type': 'application/json'
+                                },
+                                url: '/api/user',
+                                data: { email: this.email }
+                            }).then(function (response) {
+
+                                localStorage.setItem('email', self.email);
+                                self.max_score = response.data.data.best_point;
+                                self.restart();
+                                
+                            }).catch(function (error) {
+                                console.log(error);
+                            });
+
 						}
 
 					},
@@ -449,8 +738,9 @@
 							if(self.timing > 0) {
 								self.timing -= 1;
 							}else{
-								alert('Süre doldu. Test yeniden başlatılacak!');
-								self.restart();
+                                this.result_text = 'Süre doldu';
+                                this.active_screen = 3;
+                                this.send_point();
 							}
 						}, 1000);
 
@@ -475,7 +765,7 @@
                             let self = this;
 							let question_id = parseInt(Math.floor(Math.random() * this.question_limit) + 1);
 
-							if(this.answered.indexOf(question_id) == -1) {
+							if(this.answered.indexOf(question_id) === -1) {
 
                                 axios({
                                     method: 'get',
@@ -484,8 +774,6 @@
                                     },
                                     url: '/api/question?id=' + question_id
                                 }).then(function (response) {
-                                    
-                                    console.log(response.data);
 
                                     self.question = response.data;
                                     self.answered.push(question_id);
@@ -499,11 +787,47 @@
 							}
 
 						}else{
-							alert('Tebrikler, tüm soruları doğru yanıtladınız. Test yeniden başlatılacak!');
-							this.restart();
+                            this.result_text = 'Tebrikler, tüm soruları doğru yanıtladınız';
+                            this.active_screen = 3;
+                            this.send_point();
 						}
 
 					},
+                    send_point: function() {
+
+                        axios({
+                            method: 'put',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            url: '/api/user',
+                            data: { email: this.email, point: this.score }
+                        }).then(function (response) {
+
+                            self.max_score = response.data.best_point
+                            
+                        }).catch(function (error) {
+                            console.log(error);
+                        });
+
+                    },
+                    get_top_list: function()  {
+
+                        axios({
+                            method: 'get',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            url: '/api/user'
+                        }).then(function (response) {
+
+                            console.log(response);
+                            
+                        }).catch(function (error) {
+                            console.log(error);
+                        });
+
+                    },
 					pick_option: function(option_id) {
 
 						if(this.question.options[option_id].is_correct == true) {
@@ -513,7 +837,6 @@
 
 							if(this.score > this.max_score) {
 								this.max_score = this.score;
-								localStorage.setItem('max_score', this.max_score);
 							}
 
 							clearInterval(this.timing_interval);
@@ -522,8 +845,9 @@
 							this.start_timing();
 
 						}else{
-							alert('Yanlış cevap verdin. Test yeniden başlatılacak!');
-							this.restart();
+                            this.result_text = 'Yanlış cevap verdin';
+                            this.active_screen = 3;
+                            this.send_point();
 						}
 
 					}
