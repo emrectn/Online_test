@@ -12,15 +12,14 @@ class Question(Resource):
         if question_id:
             try:
                 data = get_question(int(question_id))
-
                 if data:
-                    print(data)
                     return data
 
                 print('Bu question_id veritabanında bulunamadi')
                 abort(403)
             except ValueError:
                 print('question_id int değil')
+                print(question_id, ' type: ', type(question_id))
                 abort(404)
         abort(400)
 
