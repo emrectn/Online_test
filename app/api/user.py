@@ -2,7 +2,7 @@ from flask import Blueprint, request, abort
 from flask_restful import Api, Resource
 from string import ascii_lowercase, digits
 from schema import Schema, And, SchemaError
-from app.controllers.user import create_user, update_best_point, get_toplist
+from app.controllers.user import create_user, update_best_point, get_toplist, hidden_email
 import re
 
 bp = Blueprint('user_api', __name__)
@@ -20,7 +20,7 @@ CREATE_USER_SCHEMA = Schema({
 class User(Resource):
 
     def get(self):
-        data = get_toplist()
+        data = hidden_email(get_toplist())
         if data:
             return{'status': 'OK',
                    'data': data}

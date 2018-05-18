@@ -1,5 +1,6 @@
 from app.models import DBSession, User
 from sqlalchemy.exc import IntegrityError
+import re
 
 
 def create_user(email):
@@ -52,12 +53,18 @@ def update_best_point(email, point):
         return data
 
 
-def get_toplist(size=5):
+def get_toplist(size=20):
+
     db = DBSession()
     best_users = db.query(User).order_by(
         User.best_point.desc()).limit(size)
 
     best_users = [b.to_dict() for b in best_users]
-    print(best_users)
     db.close()
     return best_users
+
+
+def hidden_email(user_list):
+    for i in user_list:
+        i['email'] = re.sub("@\w+.", "@*****.", i['email'])
+    return user_list

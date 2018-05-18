@@ -2,25 +2,27 @@
 <html>
 
 	<head>
-		
+
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
+
 		<title>Hukuki Sorular Bilgi Yarışması | Avukat Hakları Grubu</title>
 
         <meta name="robots" content="index, follow">
         <meta name="description" content="Hukuki sorular bilgi yarışması, evlilik, özgürlük, itiraz süresi, iflas tasfiye süresi, fesih bildirim tarihi | Avukat Hakları Grubu">
 
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-        
+
         <!-- Axios and CSRF -->
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <!-- Axios and CSRF -->
+        <script src = "https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.js"> </script>
+        <script src = "https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.js"> </script>
 
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 
 		<style>
-			
+
 			body {
 				margin: 0;
 				padding: 0;
@@ -526,7 +528,7 @@
                     height: 300px;
                     flex: initial;
                 }
-                
+
             }
 
 			@media screen and (max-width: 700px) {
@@ -622,23 +624,23 @@
 	<body>
 
 		<div id="app" class="page user-select-none">
-			
+
 			<div v-if="is_loading == true" class="loading">
 				Yükleniyor..
 			</div>
 
 			<template v-else>
-				
+
 				<div class="header">
-                    <a target="_blank" href="http://www.senellaw.com">
+                    <a target="_blank" href="http://www.avukathaklari.net">
                         <img class="header-logo" src="/static/images/logos/logo.png" />
                     </a>
 				</div>
-	
+
 				<div class="body box-sizing" v-bind:class="{ 'white-background': active_screen != 1 }">
-	
+
 					<div v-if="active_screen == 1" class="login">
-                        
+
                         <div class="login-text">Avukat Hakları Grubu<br><span style="font-size: 18px;">Hukuki Sorular Bilgi Yarışması</span></div>
 
                         <div class="login-form">
@@ -653,7 +655,7 @@
                         </div>
 
                         <div class="top-list">
-                            
+
                             <div v-on:click="show_top_list = !show_top_list" class="top-list-header box-sizing">
                                 <img v-show="show_top_list" class="top-list-header-icon" src="/static/images/icons/up.png" />
                                 <div style="flex: 1;">EN İYİLER</div>
@@ -699,9 +701,9 @@
 
 						</div>
                     </div>
-                    
+
                     <div v-if="active_screen == 3" class="result box-sizing">
-                        
+
                         <div class="result-content box-sizing">
 
                             <div v-if="score > 0 && score == max_score" class="result-new-record">
@@ -724,7 +726,7 @@
                                     <div class="result-score-col">[[max_score]]</div>
                                 </div>
                             </div>
-    
+
                             <button class="colored-button box-sizing" v-on:click="restart();" style="background-color: #e91d63; margin-bottom: 20px;">
                                 <img src="/static/images/icons/refresh.png" />
                                 <div style="flex: 1;">Yeniden Oyna</div>
@@ -734,12 +736,12 @@
                                 <img src="/static/images/icons/facebook.png" />
                                 <div style="flex: 1;">Facebook Sayfamızı Ziyaret Edin</div>
 							</button>
-							
+
 							<button class="colored-button box-sizing" v-on:click="window.open('https://www.instagram.com/avhaklarigrubu/', '_blank')" style="background-color: #a73baa; margin-bottom: 20px;">
                                 <img src="/static/images/icons/instagram.png" />
                                 <div style="flex: 1;">Instagram Sayfamızı Ziyaret Edin</div>
 							</button>
-							
+
 							<button class="colored-button box-sizing" v-on:click="window.open('https://twitter.com/avhaklarigrubu', '_blank')" style="background-color: #1cb7eb;">
                                 <img src="/static/images/icons/twitter.png" />
                                 <div style="flex: 1;">Twitter Sayfamızı Ziyaret Edin</div>
@@ -748,9 +750,9 @@
                         </div>
 
 					</div>
-	
+
 				</div>
-	
+
 				<div class="footer">
                     <a target="_blank" href="http://www.avukathaklari.net/">Avukat Hakları Grubu - avukathaklari.net</a>
                 </div>
@@ -760,7 +762,7 @@
 		</div>
 
 		<script>
-			
+
 			new Vue({
                 delimiters: ['[[', ']]'],
 	            el: '#app',
@@ -820,7 +822,7 @@
                                 localStorage.setItem('email', self.email);
                                 self.max_score = response.data.data.best_point;
                                 self.restart();
-                                
+
                             }).catch(function (error) {
                                 console.log(error);
                             });
@@ -877,7 +879,7 @@
 
                                     self.question = response.data;
                                     self.answered.push(question_id);
-                                    
+
                                 }).catch(function (error) {
                                     console.log(error);
                                 });
@@ -922,7 +924,7 @@
                         }).then(function (response) {
 
                             self.top_list = response.data.data;
-                            
+
                         }).catch(function (error) {
                             console.log(error);
                         });
@@ -953,7 +955,7 @@
 					}
 	            }
 	        });
-			
+
 		</script>
 
 	</body>
