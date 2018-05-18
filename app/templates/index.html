@@ -6,10 +6,10 @@
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
-		<title>Hukuki Sorular Bilgi Yarışması | Şenel Hukuk Bürosu</title>
+		<title>Hukuki Sorular Bilgi Yarışması | Avukat Hakları Grubu</title>
 
         <meta name="robots" content="index, follow">
-        <meta name="description" content="Hukuki Sorular Bilgi Yarışması | Şenel Hukuk Bürosu">
+        <meta name="description" content="Hukuki sorular bilgi yarışması, evlilik, özgürlük, itiraz süresi, iflas tasfiye süresi, fesih bildirim tarihi | Avukat Hakları Grubu">
 
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
         
@@ -86,8 +86,7 @@
 			}
 
             .header-logo {
-                width: 100px;
-                height: 100px;
+                height: 100%;
             }
 
 			.body {
@@ -136,10 +135,6 @@
             .login-text {
                 position: relative;
 				width: 100%;
-				display: flex;
-				flex-direction: row;
-				justify-content: center;
-				align-items: center;
                 margin-bottom: 40px;
                 font-size: 30px;
                 color: #ffffff;
@@ -644,7 +639,7 @@
 	
 					<div v-if="active_screen == 1" class="login">
                         
-                        <div class="login-text">Hukuki sorular - bilgi yarışması</div>
+                        <div class="login-text">Avukat Hakları Grubu<br><span style="font-size: 18px;">Hukuki Sorular Bilgi Yarışması</span></div>
 
                         <div class="login-form">
 
@@ -735,9 +730,19 @@
                                 <div style="flex: 1;">Yeniden Oyna</div>
                             </button>
 
-                            <button class="colored-button box-sizing" style="background-color: #3b5998;">
+                            <button class="colored-button box-sizing" v-on:click="window.open('https://www.facebook.com/avukathaklarigrubu/', '_blank');" style="background-color: #3b5998; margin-bottom: 20px;">
                                 <img src="/static/images/icons/facebook.png" />
                                 <div style="flex: 1;">Facebook Sayfamızı Ziyaret Edin</div>
+							</button>
+							
+							<button class="colored-button box-sizing" v-on:click="window.open('https://www.instagram.com/avhaklarigrubu/', '_blank')" style="background-color: #a73baa; margin-bottom: 20px;">
+                                <img src="/static/images/icons/instagram.png" />
+                                <div style="flex: 1;">Instagram Sayfamızı Ziyaret Edin</div>
+							</button>
+							
+							<button class="colored-button box-sizing" v-on:click="window.open('https://twitter.com/avhaklarigrubu', '_blank')" style="background-color: #1cb7eb;">
+                                <img src="/static/images/icons/twitter.png" />
+                                <div style="flex: 1;">Twitter Sayfamızı Ziyaret Edin</div>
                             </button>
 
                         </div>
@@ -747,7 +752,7 @@
 				</div>
 	
 				<div class="footer">
-                    <a target="_blank" href="http://www.senellaw.com">Şenel Hukuk Bürosu - senellaw.com</a>
+                    <a target="_blank" href="http://www.avukathaklari.net/">Avukat Hakları Grubu - avukathaklari.net</a>
                 </div>
 
 			</template>
