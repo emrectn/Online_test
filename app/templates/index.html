@@ -36,6 +36,19 @@
                 color: inherit;
             }
 
+			.scrollbar::-webkit-scrollbar {
+				width: 3px;
+			}
+
+			.scrollbar::-webkit-scrollbar-thumb {
+				background-color: #aaaaaa;
+				border-radius: 3px;
+			}
+
+			.scrollbar::-webkit-scrollbar-thumb:hover {
+				background-color: #888888;
+			}
+
 			.box-sizing {
 				box-sizing: border-box;
 				-moz-box-sizing: border-box;
@@ -132,6 +145,7 @@
 				flex-direction: column;
 				justify-content: center;
 				align-items: center;
+				padding: 20px 0;
             }
 
             .login-text {
@@ -249,6 +263,7 @@
             .top-list-header {
                 position: relative;
                 width: 100%;
+				min-height: 50px;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
@@ -275,8 +290,9 @@
                 width: 100%;
                 display: flex;
 				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				justify-content: flex-start;
+				align-items: flex-start;
+				overflow: auto;
             }
 
             .top-list-body-row {
@@ -288,8 +304,14 @@
 				justify-content: center;
 				align-items: center;
                 padding-bottom: 5px;
+				min-height: 30px;
                 border-bottom: solid 1px #ffffff;
             }
+
+			.top-list-body-row:last-child {
+				margin-bottom: 0;
+				border-bottom: 0;
+			}
 
             .top-list-body-col {
                 position: relative;
@@ -320,6 +342,7 @@
             .top-list-body-col:nth-child(3) {
                 width: 100px;
                 align-items: flex-end;
+				padding-right: 10px;
             }
 
 			.question-form {
@@ -639,20 +662,24 @@
 
 				<div class="body box-sizing" v-bind:class="{ 'white-background': active_screen != 1 }">
 
-					<div v-if="active_screen == 1" class="login">
+					<div v-if="active_screen == 1" class="login box-sizing">
 
-                        <div class="login-text">Avukat Hakları Grubu<br><span style="font-size: 18px;">Hukuki Sorular Bilgi Yarışması</span></div>
+                        <div style="flex: 1;">
 
-                        <div class="login-form">
+							<div class="login-text">Avukat Hakları Grubu<br><span style="font-size: 18px;">Hukuki Sorular Bilgi Yarışması</span></div>
 
-                            <div class="login-form-col box-sizing">
-                                <input type="email" class="text-input box-sizing" v-model="email" placeholder="Email adresinizi yaz">
-                            </div>
-                            <div class="login-form-col box-sizing">
-                                <input type="button" class="button box-sizing" v-on:click="login" value="BAŞLA">
-                            </div>
+							<div class="login-form">
 
-                        </div>
+								<div class="login-form-col box-sizing">
+									<input type="email" class="text-input box-sizing" v-model="email" placeholder="Email adresinizi yaz">
+								</div>
+								<div class="login-form-col box-sizing">
+									<input type="button" class="button box-sizing" v-on:click="login" value="BAŞLA">
+								</div>
+
+							</div>
+
+						</div>
 
                         <div class="top-list">
 
@@ -662,14 +689,14 @@
                                 <img v-show="!show_top_list" class="top-list-header-icon" src="/static/images/icons/down.png" />
                             </div>
 
-                            <div v-if="show_top_list" class="top-list-body">
+                            <div v-if="show_top_list" class="top-list-body scrollbar">
 
                                 <div v-for="user in top_list" class="top-list-body-row">
                                     <div class="top-list-body-col">
                                         <img src="/static/images/icons/user.png" />
                                     </div>
                                     <div class="top-list-body-col box-sizing">[[user.email]]</div>
-                                    <div class="top-list-body-col">[[user.best_point]]</div>
+                                    <div class="top-list-body-col box-sizing">[[user.best_point]]</div>
                                 </div>
 
                             </div>
