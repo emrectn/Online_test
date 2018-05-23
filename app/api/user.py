@@ -16,6 +16,8 @@ CREATE_USER_SCHEMA = Schema({
     'email': And(str, lambda s: 0 < len(s) <= 60, EMAIL_PATTERN.match)
 })
 
+MAX_POINT = 150
+
 
 class User(Resource):
 
@@ -46,12 +48,15 @@ class User(Resource):
         point = request.json.get("point")
 
         if email:
-            data = update_best_point(email, point)
-            if data:
-                return {'status': 'OK',
-                        'best_point': data['best_point']}
-            print('Data Bulunamadi')
+            if point < MAX_POINT:
+                data = update_best_point(email, point)
+                if data:
+                    return {'status': 'OK',
+                            'best_point': data['best_point']}
+                print('Data Bulunamadi')
+                abort(403)
             abort(403)
+        abort(403)
 
 
 api.add_resource(User, '/api/user')
